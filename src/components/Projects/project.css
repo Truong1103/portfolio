@@ -1,0 +1,24 @@
+.img-offset {
+    margin-top: 60px; /* Điều chỉnh giá trị để xích xuống */
+  }
+.text-danger{
+  text-align: left;
+}  
+.gradient-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #8B5CF6, #A855F7, #D8B4FE, #EC4899, #A855F7, #8B5CF6);
+  background-size: 300% 100%;
+  -webkit-background-clip: text; 
+  background-clip: text; 
+  color: transparent;
+  white-space: nowrap;
+  animation: gradientShift 2s linear infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+

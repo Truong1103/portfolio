@@ -1,0 +1,61 @@
+/* About.css */
+.about-section {
+  position: relative;
+  padding: 0;
+}
+
+.about-img {
+  position: relative;
+  top: -70px; 
+
+}
+
+.fixed-size {
+  width: 600px !important; 
+  height: 400px !important;
+  object-fit: cover; 
+  display: block;
+  margin: 0 auto; 
+  border: 4px solid white; 
+  border-radius: 10px; 
+}
+
+
+.slick-slide img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; 
+}
+.slick-dots {
+  bottom: 10px;
+}
+
+.slick-dots li button:before {
+  font-size: 8px; 
+  color: white;
+  opacity: 0.6;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 1;
+  color: white; 
+}
+
+
+.slick-prev,
+.slick-next {
+  width: 40px;
+  height: 40px;
+  z-index: 2;
+}
+
+.slick-prev {
+  left: -50px;
+}
+
+.slick-next {
+  right: -50px;
+}
+
+
+
